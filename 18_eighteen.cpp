@@ -10,9 +10,9 @@ int main() {
     for (long long i = 1; i * i <= N; i++) {
         if (N % i == 0) {
             if (i == N / i) {
-                count++; // perfect square
+                count++; 
             } else {
-                count += 2; // i and N/i are different
+                count += 2; 
             }
         }
     }
